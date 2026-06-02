@@ -23,13 +23,13 @@ The goal of this portfolio is to demonstrate how I investigate security alerts, 
 
 ## Projects
 
-| Project | Description | Status |
-|---|---|---|
-| 01 — Brute Force Detection | Investigation of multiple failed login attempts followed by a successful login | In progress |
-| 02 — Suspicious PowerShell Execution | Analysis of suspicious PowerShell activity using Sysmon logs | Planned |
-| 03 — Phishing Investigation | Investigation of suspicious emails, links, attachments, and indicators | Planned |
-| 04 — C2 Beaconing Analysis | Analysis of suspicious periodic network communication | Planned |
-| 05 — Vulnerability Prioritization | Prioritization of vulnerabilities using CVSS and business context | Planned |
+| Project | Description |
+|---|---|
+| [01 — Brute Force Detection](./01-brute-force-detection) | Investigation of multiple failed login attempts followed by a successful login, including detection logic, incident report, and MITRE ATT&CK mapping |
+| [02 — Suspicious PowerShell Execution](./02-suspicious-powershell) | Analysis of suspicious PowerShell activity using Sysmon logs, command-line behavior, and detection logic |
+| [03 — Phishing Investigation](./03-phishing-investigation) | Investigation of suspicious emails, links, attachments, sender reputation, and indicators of compromise |
+| [04 — C2 Beaconing Analysis](./04-c2-beaconing-analysis) | Analysis of suspicious periodic network communication that may indicate command and control activity |
+| [05 — Vulnerability Prioritization](./05-vulnerability-prioritization) | Prioritization of vulnerabilities using CVSS, asset criticality, exposure, and business context |
 
 ---
 
@@ -70,3 +70,5 @@ Each project follows a similar structure:
 ## Current Goal
 
 My current goal is to build practical experience for SOC Analyst Level 1 and Junior Cybersecurity Analyst roles while continuing my preparation for the CompTIA CySA+ certification.
+
+This portfolio is organized as a continuous learning project, where each section documents practical scenarios related to alert triage, detection logic, incident investigation, MITRE ATT&CK mapping, and security documentation.
